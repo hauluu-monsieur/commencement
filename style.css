@@ -1,4 +1,40 @@
-.tieude {
+.containner{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    flex : 15%;
+    background-color: darkred;
+}
+
+.menu{
+    flex: 5%;
+    background-color: darkgray;
+}
+.menu a{
+    padding:15px 20px;
+    color: white
+}
+.menu hover{
+    background-color: black;
+    color: pink;
+}
+    
+.content{
+    flex: 70%;
+    background-color: lightyellow;
+}
+.content iframe{
+    flex: 1;
+    border: none;
+    width: 100%;
+    height: 100%;
+.footer{
+    flex: 10%;
+    background-color: lightgray;
+}.tieude {
   color: red;
   font-weight: bold;
   font-size: 25pt;
